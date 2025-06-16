@@ -1,24 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Data Analytics Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Power BI Portfolio</title>
   <style>
-    body { font-family: sans-serif; padding: 20px; }
-    .project { margin-bottom: 20px; }
+    body {
+      margin: 0;
+      padding: 40px;
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 4em;
+      text-align: center;
+      color: #0ff;
+      text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+      margin-bottom: 10px;
+    }
+
+    p.tagline {
+      font-size: 1.5em;
+      text-align: center;
+      color: #fff;
+      opacity: 0.8;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #39ff14;
+      text-shadow: 0 0 5px #39ff14;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project {
+      background-color: #1a1a1a;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #333;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #ff00ff;
+      text-shadow: 0 0 5px #ff00ff;
+    }
+
+    .contact {
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    .badge {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+      max-width: 150px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #0ff;
+    }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm Welcome Wanderers </h1>
-  <h2>This is LongClaw98</h2>
-  <p>Microsoft Certified: PL-300 | Power BI | SQL | Excel</p>
+  <div class="container">
+    <h1>OT Analytics</h1>
+    <p class="tagline">Data Analyst | PL-300 Certified | Power BI Enthusiast</p>
 
-  <h2>📊 Projects</h2>
-  <div class="project">
-    <h3>Sales Dashboard (Power BI)</h3>
-    <p>Analyzed regional sales performance using DAX and Power Query. [<a href="https://github.com/yourusername/Sales-Dashboard-PowerBI">View on GitHub</a>]</p>
-    <img src="sales_dashboard.png" width="400">
+    <div class="section">
+      <h2>📊 Projects</h2>
+
+      <div class="project">
+        <h3>Sales Insights Dashboard</h3>
+        <p>Analyzed multi-region sales performance using Power BI, DAX, and Power Query.</p>
+        <a href="https://github.com/yourusername/Sales-Dashboard-PowerBI" target="_blank">View Project on GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>HR Attrition Analytics</h3>
+        <p>Explored employee attrition trends using interactive visuals and advanced measures.</p>
+        <a href="https://github.com/yourusername/HR-Analytics-PBI" target="_blank">View Project on GitHub</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎓 Certification</h2>
+      <p>Microsoft Certified: Power BI Data Analyst Associate (PL-300)</p>
+      <img src="https://images.credly.com/size/340x340/images/edc0f113-2f88-4f6f-8b5c-134f1f47b686/image.png" alt="PL-300 Badge" class="badge">
+    </div>
+
+    <div class="section contact">
+      <h2>📬 Contact</h2>
+      <p>
+        💼 <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>  
+        | 📧 <a href="mailto:youremail@example.com">Email</a>
+      </p>
+    </div>
   </div>
-
-  <p>📩 Contact: [Your email or LinkedIn link]</p>
 </body>
 </html>
+
